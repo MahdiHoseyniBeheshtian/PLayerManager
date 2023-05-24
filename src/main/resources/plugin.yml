@@ -1,0 +1,15 @@
+name: PlayerManager
+version: '${project.version}'
+main: com.winermine.PlayerManager
+api-version: 1.17
+author: Mahdi_Winer
+commands:
+  onlineplayers:
+    description: show and manage online players
+    permission: winermine.managePlayers
+  bannedplayers:
+    description: manage banned players
+    permission: winermine.managePlayers
+  whitelistmanage:
+    description: manage whitelisted players
+    permission: winermine.managePlayers
